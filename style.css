@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+div.big{
+    width:300px;
+    text-align:center;
+    
+    transform: translate(500px,100px);
+
+    
+    
+}
+div.a{
+    width:200px;
+    background-color: rgba(0, 0, 0, 0.831);
+    color:white;
+   
+}
+div.a input{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding:20px;
+    width:200px;
+    text-align:right;
+    background-color: rgba(0, 0, 0, 0.349);
+    color:white;
+    
+    transform: skewX(-10deg);
+}
+div.small{
+    width:200px;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.92);
+    margin:1px;
+   
+
+}
+div.small input{
+    padding:20px;
+    width:30px;
+    background:transparent;
+    box-shadow: 10px 10px 8px 1px grey;
+    margin:1px;
+    color:white;
+
+}

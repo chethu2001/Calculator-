@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="big">
+        <div class="a">
+            <input type="text" name="display" value="" id="a">
+        </div>
+        <div class="small">
+            <input type="button" value="AC" onclick="r()">
+            <input type="button" value="C" onclick="u()">
+            <input type="button" value="0" onclick="b()">
+            <input type="button" value="1" onclick="c()">
+            <input type="button" value="2" onclick="d()">
+            <input type="button" value="3" onclick="e()">
+            <input type="button" value="4" onclick="f()">
+            <input type="button" value="5" onclick="g()">
+            <input type="button" value="6" onclick="h()">
+            <input type="button" value="7" onclick="i()">
+            <input type="button" value="8" onclick="j()">
+            <input type="button" value="9" onclick="k()">
+            
+            <input type="button" value="+" onclick="n()">
+            <input type="button" value="-" onclick="q()">
+            <input type="button" value="*" onclick="o()">
+            <input type="button" value="/" onclick="p()">
+            <input type="button" value="00" onclick="l()">
+            <input type="button" value="%" onclick="t()">
+            <input type="button" value="." onclick="s()">
+            <input type="button" value="=" onclick="m()">       
+        </div>
+    </div>
+    <script>
+        let a = document.getElementById("a");
+        let b = () => a.value += "0";
+        let c = () => a.value += '1';
+        let d = () => a.value += "2";
+        let e = () => a.value += '3';
+        let f = () => a.value += "4";
+        let g = () => a.value += '5';
+        let h = () => a.value += "6";
+        let i = () => a.value += '7';
+        let j = () => a.value += "8";
+        let k = () => a.value += '9';
+        let l = () => a.value += "00";
+        let m = () => a.value = eval(a.value);
+        let n = () => a.value += "+";
+        let o = () => a.value += "*";
+        let p = () => a.value += "/";
+        let q = () => a.value += '-';
+        let r = () => a.value = "";
+        let s = () => a.value += ".";
+        let t = () => a.value += "%";
+        let u = () => a.value -= a.value;
+        
+
+        
+    </script>
+    
+</body>
+</html>
